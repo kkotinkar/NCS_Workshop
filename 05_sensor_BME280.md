@@ -1,9 +1,9 @@
 <sup>SDK version: NCS v2.5.0</sup>
 
-# Getting started: Interfacing the BME280 sensor via SPI
+# Getting started: Using Zepyhr's sensor driver with the BME280
 
 In this example we will interface the BME280 sensor via SPI and periodically read out the sensor data. We will leverage the benefits of the Zephyr project and the fact that the BME280 driver is fully integrated already.<br>
-Your application code will actually look simpler compared to the [basic SPI example](./04_BME280_basic_SPI.md) where we have only read a single register from the BME280.<br>
+Your application code will actually look simpler compared to the [basic SPI example](./04_basic_SPI.md) where we have only read a single register from the BME280.<br>
 <br>
 You may start with a blank code example / hello world project.
 
@@ -26,7 +26,7 @@ The arduino_spi interface is a remapped interface of spi3 on the nRF52840 SoC. I
 <img src="img/04_spi_connections.png" alt="SPI Connections" width=800/>
 
 You can track down the pin configuration of a board using the built-in VS Code plugin of Nordic (bottom right corner, explore the board file/*.dts) or track down the defined pins via the pinctrl definitions in the device tree files directly.<br>
-See [basic SPI example](./04_BME280_basic_SPI.md) for an example.
+See [basic SPI example](./04_basic_SPI.md) for an example.
 
 ### 2) Create Device Tree overlay file
 
