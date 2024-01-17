@@ -47,6 +47,7 @@ Secondly, add the DIS module and parameters that we like to share.
 <sup>> add to prj.conf</sup>
 ```
 # BLE Device Information Service (DIS)
+CONFIG_BT_DIS=y
 CONFIG_BT_DIS_MANUF="Zephyr"
 CONFIG_BT_DIS_MODEL="Zephyr Model"
 CONFIG_BT_DIS_SERIAL_NUMBER=y

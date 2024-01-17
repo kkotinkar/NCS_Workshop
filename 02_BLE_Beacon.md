@@ -131,7 +131,7 @@ Hit __Built__ in the Actions menu to compile the project, then hit __Flash__ to 
 
 On the virtual COM port of the DK you should expect the following output:
 
-<img src="img/03_terminal.png" alt="Terminal Output" width=600/>
+<img src="img/02_terminal.png" alt="Terminal Output" width=600/>
 
 ### 8) Using a smartphoner to scan for the beacon
 You can also scan for the beacon using your smartphone and an app. <br>
